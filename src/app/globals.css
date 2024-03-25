@@ -31,7 +31,15 @@ body {
     text-wrap: balance;
   }
 }
-.regular-48
-{
+.regular-48 {
   @apply text-[3.384vw] leading-[1.2em] font-bold;
+}
+.regular-42 {
+  @apply text-[3.184vw] leading-[1.2em] font-semibold;
+}
+.regular-24{
+  @apply text-[2vw] leading-[1.2em] font-medium uppercase;
+}
+.secondary-btn{
+  @apply w-full text-center border-[1px] border-gray-300 py-3;
 }
